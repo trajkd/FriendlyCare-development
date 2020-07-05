@@ -1,0 +1,63 @@
+@keyframes small {
+    to {
+        transform: scale(0);
+    }
+}
+
+@keyframes big {
+    to {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes bigger {
+    to {
+        transform: scale(1);
+    }
+}
+
+#mood {
+	justify-content: center;
+	text-align: center;
+    z-index: 99999;
+}
+
+#emoji {
+	transition: all 1s;
+}
+
+/*#chart, #bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50vw;
+    z-index: -1;
+}*/
+
+#chart {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 24vw;
+    z-index: -1;
+}
+
+#bar {
+    position: absolute;
+    left: 25vw;
+    bottom: 0;
+    width: 24vw;
+    z-index: -1;
+}
+
+#imageContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#switch {
+    position: absolute;
+    left: 52vw;
+    bottom: 200px;
+}

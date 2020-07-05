@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FriendlyCare</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/animation.css">
+</head>
+<body>
+	<div>
+		<video autoplay="true" id="videoElement" style="width:0;height:0;"></video>
+		<canvas id="imageContainer" style="width:240px;height:135px;"></canvas>
+		<div id="mood">
+			<img id="emoji" src="">
+		</div>
+	</div>
+
+	<!-- <div id="chart" style="visibility:hidden"></div>
+	<div id="bar"></div>
+	<button id="switch">Cambia grafico</button> -->
+	<div id="chart"></div>
+	<div id="bar"></div>
+
+	<div style="position:fixed;right:0;bottom:0;">
+		<iframe
+		    allow="microphone;"
+		    width="350"
+		    height="430"
+		    src="https://console.dialogflow.com/api-client/demo/embedded/8ff8d606-2ec0-48a8-a0d3-1f20f4269663">
+		</iframe>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/plotly.js@1.54.5/dist/plotly.min.js"></script>
+	<script type="text/javascript" src="../static/js/compute.js"></script>
+</body>
+</html>
